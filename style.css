@@ -1,0 +1,138 @@
+*{
+    margin: 0px;
+    font-family: 'inter';
+}
+
+#part1{
+    color: aliceblue;
+    background-image: url(imagens/Background1.svg);
+}
+
+#logo{
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+#title-part1{
+    margin-top: 50px;   
+    margin-left: 160px;
+    margin-bottom: 50px;
+}
+
+#text-part1{
+    margin-left: 160px;
+    padding-bottom: 125px;
+}
+
+#part2{
+    background-color: #EAECE5;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+.icons-part2{
+    margin: 50px 0px 50px 100px;
+    padding: 20px;
+}
+
+.part2text{
+    display: flex;
+    align-items: center;
+}
+
+#part3{
+    background-color: white;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+#title-part3{
+    color: #247BA0;
+    margin-top: 65px;
+    font-size: 28px;
+}
+
+#video{
+    margin: 50px 0px 50px 100px;
+}
+
+#part4{
+    background-color: #247BA0;
+    padding-top: 60px;
+    padding-bottom: 50px;
+}
+
+#title-par4{
+    color: #EAECE5;
+    text-align: center;
+    font-size: 13px;
+    margin-bottom: 50px;
+}
+
+#cads{
+    display: grid;
+    grid-auto-flow: column;
+    margin-left: 70px;
+    margin-right: 10px;
+}
+
+#c3{
+    display: none;
+}
+
+#C1{
+    display: flex;
+}
+
+#arrow{
+    margin-top: 50%;
+    cursor: pointer;
+}
+
+.arrow:hover{
+    transform: translateY(-5px);
+    transition-duration: 0,8s;
+}
+
+#part5{
+    text-align: center;
+}
+
+#title-part5{
+    color: #383838; 
+    text-align: center;
+    font-size: 22px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+input{
+    width: 280px;
+    height: 35px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    background-color: #EAECE5;
+    border: none;
+}
+
+#button-part5{
+    background-color: #247BA0;
+    width: 240px;
+    height: 35px;
+    text-align: center;
+    color: #FFFFFF;
+    border-radius: 8px;
+    border: none;
+    margin-bottom: 60px;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+button:hover{
+    transform: translateY(-5px);
+    transition-duration: 0,8s;
+    background-color: #5aafd3;
+    box-shadow: 0px 10px 10px #1a607e67;
+}
